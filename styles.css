@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+.desk-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.desk {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    color: black;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.booked {
+    background-color: rgb(37, 28, 28);
+    color: white;
+    pointer-events: none;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input, form select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+#booking-form{
+    margin: 5%;
+}
+
+#book-desk{
+    margin-top: 2%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(150, 150, 4);
+}
